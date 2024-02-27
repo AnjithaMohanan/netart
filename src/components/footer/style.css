@@ -1,0 +1,44 @@
+footer{
+    position: relative;
+    bottom: 0;
+    background-color:#ef5350 ;
+    height: 60px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.github{
+    float: left;
+    color:#ffff;
+    margin-left: 20px;
+}
+span{
+    font-weight:bold;
+}
+.globe{
+    margin-right: 20px;
+    float: right;
+}
+@media only screen and (max-width: 600px) {
+    
+    a:link{
+        width: 100%;
+        font-size: 12px;
+        margin: 10px;
+        text-align: center;
+    }
+   footer{
+       text-align: center;
+       width: 100%;
+       height: 150px;
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+   }    
+  }
+ a:link{
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Bigelow Rules';
+     font-weight: 600;
+     justify-content: center;
+}

@@ -1,0 +1,86 @@
+img{
+    width: 380px;
+}
+.image{
+    float: left;
+   
+
+}
+.p{
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+}
+
+
+.achievement img{
+    width: 650px;
+    
+
+
+    
+}
+.achievement p{
+    
+    max-width: 65%;
+    float: right;
+}
+
+ul{
+    max-width: 65%;
+    float: right;
+}
+li{
+    text-align: left;
+}
+@media only screen and (max-width: 900px) {
+    img{
+        width:200px;
+    }
+    .image{
+        float: none;
+        
+    }
+    ul{
+        width: 100%;
+        float: none;
+    }
+    .achievement p{
+       max-width: 100%;
+        float: none;
+        text-align: center;
+    }
+     
+    
+    h2{
+        font-size: 7px;
+    }
+    li{
+        width: 60%;
+        text-align: left;
+        float: right;
+        font-size: 10px;
+    }
+    .achievement img{
+        width: 500px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    img{
+        width:150px;
+        justify-content: center;
+    }
+    h2{
+        font-size: 10px;
+        width:120%;
+    }
+    li{
+        width: 70%;
+        text-align: left;
+        float: right;
+    }
+    .achievement img{
+        width: 240px;
+    }
+    
+  }
